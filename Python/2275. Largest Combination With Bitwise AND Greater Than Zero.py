@@ -2,7 +2,7 @@ MAX_N_BITS = 24
 
 class Solution:
     def largestCombination(self, candidates: List[int]) -> int:
-        max_set = 1 # Any one element is > 0
+        max_set = 1 
         mask = 1
         for shift in range(MAX_N_BITS):
             count = 0
