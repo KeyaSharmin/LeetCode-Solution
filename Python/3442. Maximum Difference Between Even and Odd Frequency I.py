@@ -5,6 +5,7 @@ class Solution:
         min_even = float('inf')
         cur = s[0]
         cnt = 1
+        
         for i in range(1, len(s)):
             if s[i] == cur:
                 cnt += 1
